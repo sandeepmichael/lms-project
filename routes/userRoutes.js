@@ -111,7 +111,7 @@ router.post('/googlelogin', (req, res) => {
             });
         } else {
             return res.status(400).json({
-                error: 'Google login failed. Try again'
+                error: 'Google login failed. please Try again'
             });
         }
 
