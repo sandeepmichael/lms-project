@@ -41,9 +41,9 @@ const Login = () => {
           {error ? (<Error error='Invalid Credentials'/>): null}
             <form>
               <div className="form-group">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">Email Address</label>
                 <input 
-                placeholder = "Email"
+                placeholder = "Email Address"
                   className="form-control"
                   type="email"
                   name="email"
